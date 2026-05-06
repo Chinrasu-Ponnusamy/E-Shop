@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="Home.css" />
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-luxe">
+        <div class="container-fluid">
+            <a class="navbar-brand navbar-text-1" href="./index.html">Luxe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active navbar-text" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active navbar-text" aria-current="page" href="./About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active navbar-text" aria-current="page" href="./Products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active navbar-text" aria-current="page" href="./Contact.html">Contact</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex navbar-button gap-3" role="search">
+                    <button class="btn-gold button-1" type="submit"><a href="./login.html">Login</a></button>
+                    <button class="btn-outline-gold navbar-button-1  " type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="home" class="page">
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-grid"></div>
+            <div class="hero-glow"></div>
+            <div class="container">
+                <div class="row align-items-center g-5">
+
+                    <!-- Copy -->
+                    <div class="col-lg-6">
+                        <p class="eyebrow anim-1">New Collection — SS 2026</p>
+                        <h1 class="hero-title anim-2 mb-4">
+                            Wear<br />Your <em>Story</em><br />In Style
+                        </h1>
+                        <p class="hero-sub anim-3 mb-5">
+                            Curated fashion for those who refuse the ordinary. Every piece tells a story of timeless
+                            craftsmanship and modern luxury.
+                        </p>
+                        <div class="d-flex flex-wrap gap-3 mb-5 anim-4">
+                            <a href="./Products.html" class="btn-gold">Shop Collection</a>
+                            <a href="./About.html" class="btn-outline-gold">Our Story</a>
+                        </div>
+                        <div class="d-flex gap-4 anim-5">
+                            <div>
+                                <div class="hero-stat-num">2K+</div>
+                                <div class="hero-stat-lbl">Products</div>
+                            </div>
+                            <div>
+                                <div class="hero-stat-num">50K+</div>
+                                <div class="hero-stat-lbl">Customers</div>
+                            </div>
+                            <div>
+                                <div class="hero-stat-num">98%</div>
+                                <div class="hero-stat-lbl">Satisfaction</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Visual -->
+                    <div class="col-lg-6 anim-3">
+                        <div class="hero-visual-wrap">
+                            <div class="hero-visual-inner">
+                                <!-- Fashion Illustration SVG -->
+                                <img src="./image/Ember Trench Coat.webp" alt="">
+                            </div>
+                            <div class="hero-corner"></div>
+                            <div class="hero-chip">
+                                <div class="hero-chip-icon"><i class="bi bi-stars"></i></div>
+                                <div>
+                                    <strong style="font-size:.78rem;color:var(--gold);display:block;">Premium
+                                        Quality</strong>
+                                    <span style="font-size:.68rem;color:var(--muted);">Handcrafted with love</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Marquee -->
+        <div class="marquee-bar">
+            <div class="marquee-track">
+                <span class="marquee-item">Free Shipping Over ₹2999<span class="m-dot"></span></span>
+                <span class="marquee-item">New Arrivals Every Week<span class="m-dot"></span></span>
+                <span class="marquee-item">Premium Quality Guaranteed<span class="m-dot"></span></span>
+                <span class="marquee-item">Easy 30-Day Returns<span class="m-dot"></span></span>
+                <span class="marquee-item">Free Shipping Over ₹2999<span class="m-dot"></span></span>
+                <span class="marquee-item">New Arrivals Every Week<span class="m-dot"></span></span>
+                <span class="marquee-item">Premium Quality Guaranteed<span class="m-dot"></span></span>
+                <span class="marquee-item">Easy 30-Day Returns<span class="m-dot"></span></span>
+            </div>
+        </div>
+
+        <!-- Featured Products -->
+        <section class="section-pad" style="background:var(--dark);">
+            <div class="container">
+                <div class="row align-items-end mb-5">
+                    <div class="col-md-8">
+                        <p class="eyebrow p-4">Curated Picks</p>
+                        <h2 class="display-title">Featured <em
+                                style="font-style:italic;color:var(--gold);">Collection</em></h2>
+                        <div class="gold-rule"></div>
+                    </div>
+                    <div class="col-md-4 text-md-end">
+                        <a href="./Products.html" class="btn-outline-gold">View All</a>
+                    </div>
+                </div>
+                <div class="row g-4">
+
+                    <!-- Card 1 -->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="product-card">
+                            <div class="product-img" style="background:#130f06;">
+                                <span class="product-badge-tag">New</span>
+                                <!-- Gown SVG -->
+                                <img src="./image/Midnight Reverie Gown.webp" alt="">
+                                <div class="product-hover-btn">
+                                    <span class="btn-gold" style="font-size:.62rem;padding:.65rem 1.3rem;">Add to
+                                        Bag</span>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <p class="p-cat">Dress</p>
+                                <h3 class="p-name">Midnight Reverie Gown</h3>
+                                <div><span class="p-price">₹8,499</span><span class="p-price-old">₹11,999</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="product-card">
+                            <div class="product-img" style="background:#0c0b08;">
+                                <span class="product-badge-tag" style="background:#888;">Best Seller</span>
+                                <!-- Blazer SVG -->
+                                <img src="./image/Velvet Noir Blazer.webp" alt="">
+                                <div class="product-hover-btn">
+                                    <span class="btn-gold" style="font-size:.62rem;padding:.65rem 1.3rem;">Add to
+                                        Bag</span>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <p class="p-cat">Jacket</p>
+                                <h3 class="p-name">Velvet Noir Blazer</h3>
+                                <div><span class="p-price">₹12,999</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="product-card">
+                            <div class="product-img" style="background:#14100a;">
+                                <span class="product-badge-tag" style="background:#b8572a;">Sale</span>
+                                <!-- Dress 2 SVG -->
+                                <img src="./image/Golden Hour Dress-2.webp" alt="">
+                                <div class="product-hover-btn">
+                                    <span class="btn-gold" style="font-size:.62rem;padding:.65rem 1.3rem;">Add to
+                                        Bag</span>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <p class="p-cat">Dress</p>
+                                <h3 class="p-name">Golden Hour Dress</h3>
+                                <div><span class="p-price">₹6,799</span><span class="p-price-old">₹8,999</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="product-card">
+                            <div class="product-img" style="background:#0b0b0d;">
+                                <span class="product-badge-tag" style="background:#2d6a4f;">Limited</span>
+                                <!-- Suit SVG -->
+                                <img src="./image/Obsidian Power Suit.jpg" alt="">
+                                <div class="product-hover-btn">
+                                    <span class="btn-gold" style="font-size:.62rem;padding:.65rem 1.3rem;">Add to
+                                        Bag</span>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <p class="p-cat">Suit</p>
+                                <h3 class="p-name">Obsidian Power Suit</h3>
+                                <div><span class="p-price">₹24,999</span><span class="p-price-old">₹29,999</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- /row -->
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section class="section-pad" style="background:var(--dark-2);">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-6 col-md-3">
+                        <div class="feat-box"><i class="bi bi-gem"></i>
+                            <div class="feat-box-title">Premium Fabric</div>
+                            <div class="feat-box-sub">100% Genuine</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="feat-box" style="margin-top:1.5rem;"><i class="bi bi-arrow-repeat"></i>
+                            <div class="feat-box-title">Easy Returns</div>
+                            <div class="feat-box-sub">30-Day Policy</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="feat-box"><i class="bi bi-truck"></i>
+                            <div class="feat-box-title">Fast Delivery</div>
+                            <div class="feat-box-sub">2–3 Business Days</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="feat-box" style="margin-top:1.5rem;"><i class="bi bi-shield-check"></i>
+                            <div class="feat-box-title">Secure Pay</div>
+                            <div class="feat-box-sub">256-bit SSL</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Banner -->
+        <section class="banner-section">
+            <div class="container">
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-7">
+                        <p class="eyebrow">Limited Edition</p>
+                        <h2 class="banner-title">The Art of<br />Dressing Well</h2>
+                        <div class="gold-rule"></div>
+                        <p class="about-body-text">Discover our exclusive limited-edition pieces crafted by artisan
+                            tailors using the finest fabrics sourced from around the world.</p>
+                        <a href="./Products.html" class="btn-gold mt-2">Shop Limited Edition</a>
+                    </div>
+                    <div class="col-lg-5">
+                        <div
+                            style="border:1px solid rgba(201,168,76,0.15);padding:2.5rem;background:rgba(201,168,76,0.03);">
+                            <p class="eyebrow mb-3">Why LUXE?</p>
+                            <div style="display:flex;flex-direction:column;gap:1rem;">
+                                <div style="display:flex;align-items:center;gap:1rem;"><i
+                                        class="bi bi-check-circle text-gold"></i><span
+                                        style="font-size:.8rem;color:var(--muted);">Ethically sourced, sustainably
+                                        crafted materials</span></div>
+                                <div style="display:flex;align-items:center;gap:1rem;"><i
+                                        class="bi bi-check-circle text-gold"></i><span
+                                        style="font-size:.8rem;color:var(--muted);">Artisan-made with generational
+                                        skill</span></div>
+                                <div style="display:flex;align-items:center;gap:1rem;"><i
+                                        class="bi bi-check-circle text-gold"></i><span
+                                        style="font-size:.8rem;color:var(--muted);">Timeless silhouettes that transcend
+                                        seasons</span></div>
+                                <div style="display:flex;align-items:center;gap:1rem;"><i
+                                        class="bi bi-check-circle text-gold"></i><span
+                                        style="font-size:.8rem;color:var(--muted);">Inclusive sizing from XS to
+                                        4XL</span></div>
+                                <div style="display:flex;align-items:center;gap:1rem;"><i
+                                        class="bi bi-check-circle text-gold"></i><span
+                                        style="font-size:.8rem;color:var(--muted);">Personal style consultation
+                                        included</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials -->
+        <section class="section-pad" style="background:var(--dark);">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <p class="eyebrow">What They Say</p>
+                    <h2 class="display-title">Client <em style="font-style:italic;color:var(--gold);">Stories</em></h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="testi-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testi-text">The quality is breathtaking. I wear my LUXE coat every day and receive
+                                compliments wherever I go.</p>
+                            <p class="testi-author">— Priya Sharma, Mumbai</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testi-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testi-text">Finally a brand that understands true luxury without compromising on
+                                sustainability. Unmatched fabric quality.</p>
+                            <p class="testi-author">— Arjun Kapoor, Delhi</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testi-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testi-text">The customer service was impeccable. They helped me find the perfect
+                                dress for my gala and it was stunning.</p>
+                            <p class="testi-author">— Meera Nair, Chennai</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="section-pad" style="background:var(--dark-2);">
+            <div class="container">
+                <div class="newsletter-wrap">
+                    <p class="eyebrow" style="position:relative;">Stay Updated</p>
+                    <h2 class="display-title" style="position:relative;margin-bottom:1rem;">Join the LUXE Circle</h2>
+                    <p
+                        style="color:var(--muted);font-size:.78rem;max-width:380px;margin:0 auto 2rem;position:relative;">
+                        Get exclusive access to new arrivals, member-only offers and curated style guides.</p>
+                    <form action="#" class="nl-input-wrap" style="position:relative;">
+                        <input type="email" placeholder="Your email address" class="nl-input" required>
+                        <button type="submit" class="btn-gold">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="footer-main">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 mb-4">
+                    <span class="footer-brand-text">LUXE</span>
+                    <p class="footer-tagline">Where fashion meets artistry.<br />Timeless luxury for the modern soul.
+                    </p>
+                    <div class="social-row">
+                        <a href="#" class="social-a"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="social-a"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="social-a"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="social-a"><i class="bi bi-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <p class="footer-head">Navigate</p>
+                    <a href="#home" class="f-link">Home</a>
+                    <a href="#about" class="f-link">About</a>
+                    <a href="#products" class="f-link">Products</a>
+                    <a href="#contact" class="f-link">Contact</a>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <p class="footer-head">Collections</p>
+                    <a href="#products" class="f-link">Dresses</a>
+                    <a href="#products" class="f-link">Jackets</a>
+                    <a href="#products" class="f-link">Suits</a>
+                    <a href="#products" class="f-link">Accessories</a>
+                    <a href="#products" class="f-link">Sale</a>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <p class="footer-head">Support</p>
+                    <a href="#" class="f-link">Size Guide</a>
+                    <a href="#" class="f-link">Shipping Info</a>
+                    <a href="#" class="f-link">Returns</a>
+                    <a href="#" class="f-link">Track Order</a>
+                    <a href="#" class="f-link">FAQ</a>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <p class="footer-head">Legal</p>
+                    <a href="#" class="f-link">Privacy Policy</a>
+                    <a href="#" class="f-link">Terms of Use</a>
+                    <a href="#" class="f-link">Cookie Policy</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copy">© 2026 LUXE Fashion House. All rights reserved.</p>
+                <div class="pay-tags">
+                    <span class="pay-tag">VISA</span>
+                    <span class="pay-tag">MC</span>
+                    <span class="pay-tag">UPI</span>
+                    <span class="pay-tag">PayTM</span>
+                    <span class="pay-tag">COD</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- bootstrap script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

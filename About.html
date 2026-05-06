@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUXE Navbar</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./About.css" />
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-luxe">
+        <div class="container-fluid">
+            <a class="navbar-brand navbar-text-1" href="./index.html">Luxe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active navbar-text" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active navbar-text" aria-current="page" href="./About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active navbar-text" aria-current="page" href="./Products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active navbar-text" aria-current="page" href="./Contact.html">Contact</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex navbar-button gap-3" role="search">
+                   <button class="btn-gold button-1" type="submit"><a href="./login.html">Login</a></button>
+                    <button class="btn-outline-gold navbar-button-1  " type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="about" class="page">
+
+        <section class="about-hero">
+            <div class="about-watermark">LUXE</div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <p class="eyebrow anim-1">Our Story</p>
+                        <h1 class="about-page-title anim-2">
+                            Crafting Luxury,<br /><em style="font-style:italic;color:var(--gold);">Defining Style</em>
+                        </h1>
+                        <div class="gold-rule anim-3"></div>
+                        <p class="about-body-text anim-3" style="max-width:500px;">
+                            Since 2012, LUXE has been at the intersection of heritage craftsmanship and contemporary
+                            fashion — creating pieces that transcend trends and become lifelong companions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Story -->
+        <section class="section-pad" style="background:var(--dark);">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-5">
+                        <div class="about-img-block">
+                            <img src="./image/Golden Hour Dress-2.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <p class="eyebrow">The Beginning</p>
+                        <h2 class="display-title mb-3">Born from a<br />Passion for <em
+                                style="font-style:italic;color:var(--gold);">Excellence</em></h2>
+                        <div class="gold-rule"></div>
+                        <p class="about-body-text">LUXE was founded in a small atelier in Mumbai by designer Ananya
+                            Mehta, who believed that true luxury is not about price — it's about the feeling a garment
+                            gives you when you wear it. Every stitch, every fabric choice, every silhouette is
+                            considered with obsessive care.</p>
+                        <p class="about-body-text">Over a decade later, we've grown into a global brand serving
+                            discerning customers across 40+ countries, while staying true to our founding philosophy:
+                            exceptional quality and timeless design for those who truly appreciate them.</p>
+                        <div class="row g-3 mt-3">
+                            <div class="col-6 col-md-3">
+                                <div class="stat-box">
+                                    <div class="stat-num">14</div>
+                                    <div class="stat-lbl">Years</div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="stat-box">
+                                    <div class="stat-num">40+</div>
+                                    <div class="stat-lbl">Countries</div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="stat-box">
+                                    <div class="stat-num">2K+</div>
+                                    <div class="stat-lbl">Products</div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="stat-box">
+                                    <div class="stat-num">50K+</div>
+                                    <div class="stat-lbl">Clients</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Values -->
+        <section class="section-pad" style="background:var(--dark-2);">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <p class="eyebrow p-5">What We Stand For</p>
+                    <h2 class="display-title">Our <em style="font-style:italic;color:var(--gold);">Values</em></h2>
+                </div>
+                <div class="row g-4 pb-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="value-box"><i class="bi bi-gem"></i>
+                            <div class="value-box-title">Craftsmanship</div>
+                            <p class="value-box-body">Every garment is handcrafted by master artisans using
+                                time-honoured techniques passed through generations.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="value-box"><i class="bi bi-leaf"></i>
+                            <div class="value-box-title">Sustainability</div>
+                            <p class="value-box-body">Responsibly sourced fabrics and carbon-neutral operations across
+                                our entire supply chain.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="value-box"><i class="bi bi-people"></i>
+                            <div class="value-box-title">Inclusivity</div>
+                            <p class="value-box-body">Luxury has no size or boundary. We celebrate all body types and
+                                design for every shape.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="value-box"><i class="bi bi-infinity"></i>
+                            <div class="value-box-title">Timelessness</div>
+                            <p class="value-box-body">Pieces that transcend the seasonal trend cycle — clothes you'll
+                                cherish for decades, not just seasons.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team -->
+        <section class="section-pad" style="background:var(--dark);">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <p class="eyebrow p-4">The Visionaries</p>
+                    <h2 class="display-title">Meet Our <em style="font-style:italic;color:var(--gold);">Team</em></h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-6 col-md-3">
+                        <div class="team-card">
+                            <div class="team-avatar">A</div>
+                            <div class="team-name">Ananya Mehta</div>
+                            <div class="team-role">Founder & Creative Dir.</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="team-card">
+                            <div class="team-avatar">R</div>
+                            <div class="team-name">Rohan Singhania</div>
+                            <div class="team-role">Head of Design</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="team-card">
+                            <div class="team-avatar">S</div>
+                            <div class="team-name">Siya Patel</div>
+                            <div class="team-role">Style Curator</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="team-card">
+                            <div class="team-avatar">K</div>
+                            <div class="team-name">Kiran Nair</div>
+                            <div class="team-role">Master Tailor</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container-fluid">
+            <div class="col">
+                <div class="icon my-5">
+                    <div class="icon-list text-center justify-content-center">
+                         <h2 class="display-title">Follow in <em style="font-style:italic;color:var(--gold);">Instagram</em></h2>
+                        <div class="video-item d-flex text-center justify-content-center gap-4">
+                            <video class="main-video" src="./video/bannen-1.mp4" loop autoplay muted></video>
+                            <video class="main-video" src="./video/banner-2.mp4" loop autoplay muted></video>
+                            <video class="main-video" src="./video/vid-banner-3.mp4" loop autoplay muted></video>
+                            <video class="main-video" src="./video/vid-banner-4.mp4" loop autoplay muted></video>
+                            <video class="main-video" src="./video/vid-banner-5.mp4" loop autoplay muted></video>
+                            <video class="main-video" src="./video/vid-banner-6.mp4" loop autoplay muted></video>
+                            <video class="main-video" src="./video/vid-banner-7.mp4" loop autoplay muted></video>
+                            <video class="main-video" src="./video/vid-banner-8.mp4" loop autoplay muted></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- ══════════════ FOOTER ══════════════ -->
+        <footer class="footer-main">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-4 mb-4">
+                        <span class="footer-brand-text">LUXE</span>
+                        <p class="footer-tagline">Where fashion meets artistry.<br />Timeless luxury for the modern
+                            soul.</p>
+                        <div class="social-row">
+                            <a href="#" class="social-a"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="social-a"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="social-a"><i class="bi bi-twitter-x"></i></a>
+                            <a href="#" class="social-a"><i class="bi bi-pinterest"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <p class="footer-head">Navigate</p>
+                        <a href="#home" class="f-link">Home</a>
+                        <a href="#about" class="f-link">About</a>
+                        <a href="#products" class="f-link">Products</a>
+                        <a href="#contact" class="f-link">Contact</a>
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <p class="footer-head">Collections</p>
+                        <a href="#products" class="f-link">Dresses</a>
+                        <a href="#products" class="f-link">Jackets</a>
+                        <a href="#products" class="f-link">Suits</a>
+                        <a href="#products" class="f-link">Accessories</a>
+                        <a href="#products" class="f-link">Sale</a>
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <p class="footer-head">Support</p>
+                        <a href="#" class="f-link">Size Guide</a>
+                        <a href="#" class="f-link">Shipping Info</a>
+                        <a href="#" class="f-link">Returns</a>
+                        <a href="#" class="f-link">Track Order</a>
+                        <a href="#" class="f-link">FAQ</a>
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <p class="footer-head">Legal</p>
+                        <a href="#" class="f-link">Privacy Policy</a>
+                        <a href="#" class="f-link">Terms of Use</a>
+                        <a href="#" class="f-link">Cookie Policy</a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p class="footer-copy">© 2026 LUXE Fashion House. All rights reserved.</p>
+                    <div class="pay-tags">
+                        <span class="pay-tag">VISA</span>
+                        <span class="pay-tag">MC</span>
+                        <span class="pay-tag">UPI</span>
+                        <span class="pay-tag">PayTM</span>
+                        <span class="pay-tag">COD</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- bootstrap script -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
